@@ -1,8 +1,8 @@
 name: HiFiNi 自动签到2
  
-于:
+on:
     push:
-        分支:
+        branches:
             - master
     schedule:
         - cron: '0 0 * * *'
